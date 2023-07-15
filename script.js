@@ -42,4 +42,8 @@ function fadeIn(element) {
     fadeIn(document.body);
     animateProjects();
   });
+
+// Function to get the current year. Used for copyright footer
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+
   
